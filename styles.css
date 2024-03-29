@@ -1,0 +1,35 @@
+
+.nombre-foto{
+    background-color: rgba(29, 50, 59, 0.705);
+    border: 5px solid rgba(17, 29, 34, 0.466);
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    padding: 1em;
+}
+
+.nombre-foto h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: JetBrains Mono;
+    font-weight: bold;
+    color: #EBEDFF;
+    letter-spacing: 0.5px;
+    margin: auto;
+    padding: 0.5em;
+}
+.nombre-foto img{
+    padding: 5px;
+    display:block;
+    margin:auto;
+    width: 250px;
+    border: 2px solid rgba(38, 65, 77, 0.336);
+    border-radius: 10%;
+    animation: rotation 2s infinite linear;
+    transition: 0.3s;
+}
+
+.nombre-foto img:hover {
+    transform: rotate(180deg);
+}
+
